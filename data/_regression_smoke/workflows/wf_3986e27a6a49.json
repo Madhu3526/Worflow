@@ -1,0 +1,276 @@
+{
+  "workflow_id": "wf_3986e27a6a49",
+  "document": "prompt_engineering.txt",
+  "document_id": "doc_481ceb2eb3df",
+  "pages": [
+    1
+  ],
+  "sections": [
+    "One Formula to Remember"
+  ],
+  "nodes": [
+    {
+      "node_id": "n_act_12fdce2ecb7f",
+      "actor": null,
+      "action": "role",
+      "object": null,
+      "order": 0,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Role",
+      "action_id": "act_12fdce2ecb7f"
+    },
+    {
+      "node_id": "n_act_8595f9022b39",
+      "actor": null,
+      "action": "context",
+      "object": null,
+      "order": 1,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Context",
+      "action_id": "act_8595f9022b39"
+    },
+    {
+      "node_id": "n_act_8d88815b8e54",
+      "actor": null,
+      "action": "objective",
+      "object": null,
+      "order": 2,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Objective",
+      "action_id": "act_8d88815b8e54"
+    },
+    {
+      "node_id": "n_act_365c63b8ac71",
+      "actor": null,
+      "action": "input",
+      "object": null,
+      "order": 3,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Input",
+      "action_id": "act_365c63b8ac71"
+    },
+    {
+      "node_id": "n_act_a129fa430297",
+      "actor": null,
+      "action": "tasks",
+      "object": null,
+      "order": 4,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Tasks",
+      "action_id": "act_a129fa430297"
+    },
+    {
+      "node_id": "n_act_0caf466de8cc",
+      "actor": null,
+      "action": "constraints",
+      "object": null,
+      "order": 5,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Constraints",
+      "action_id": "act_0caf466de8cc"
+    },
+    {
+      "node_id": "n_act_3b94e70041a5",
+      "actor": null,
+      "action": "output",
+      "object": "Format",
+      "order": 6,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Output Format",
+      "action_id": "act_3b94e70041a5"
+    },
+    {
+      "node_id": "n_act_962f82e1470a",
+      "actor": null,
+      "action": "validation",
+      "object": null,
+      "order": 7,
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Validation",
+      "action_id": "act_962f82e1470a"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n_act_12fdce2ecb7f",
+      "target": "n_act_8595f9022b39",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8595f9022b39",
+      "target": "n_act_8d88815b8e54",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8d88815b8e54",
+      "target": "n_act_365c63b8ac71",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_365c63b8ac71",
+      "target": "n_act_a129fa430297",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_a129fa430297",
+      "target": "n_act_0caf466de8cc",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_0caf466de8cc",
+      "target": "n_act_3b94e70041a5",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_3b94e70041a5",
+      "target": "n_act_962f82e1470a",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_12fdce2ecb7f",
+      "target": "n_act_8595f9022b39",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8595f9022b39",
+      "target": "n_act_8d88815b8e54",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8d88815b8e54",
+      "target": "n_act_365c63b8ac71",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_365c63b8ac71",
+      "target": "n_act_a129fa430297",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_a129fa430297",
+      "target": "n_act_0caf466de8cc",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_0caf466de8cc",
+      "target": "n_act_3b94e70041a5",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_3b94e70041a5",
+      "target": "n_act_962f82e1470a",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Role",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_12fdce2ecb7f"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Context",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_8595f9022b39"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Objective",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_8d88815b8e54"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Input",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_365c63b8ac71"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Tasks",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_a129fa430297"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Constraints",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_0caf466de8cc"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Output Format",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_3b94e70041a5"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "One Formula to Remember",
+      "sentence": "Validation",
+      "chunk_id": "chunk_b58dfa17aae6",
+      "action_id": "act_962f82e1470a"
+    }
+  ],
+  "context_notes": [],
+  "summary": "One Formula to Remember: Operator performs: role → context → objective → input → tasks → constraints → output Format → validation",
+  "title_hint": "One Formula to Remember",
+  "group_id": "group_1012ec39c76b",
+  "merged_from": [],
+  "metadata": {
+    "boundary_confidence": 0.49,
+    "action_count": 8
+  }
+}

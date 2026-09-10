@@ -1,0 +1,32 @@
+# Sample weld-repair procedure for offline discovery tests.
+
+7.2 Major Weld Repair Procedure
+
+The technician follows the major weld repair process for structural components.
+
+1. Inspect crack
+The technician shall inspect the crack and mark the extent of damage on the surface.
+
+2. Remove damaged material
+After inspection, remove damaged material from the affected zone using approved tooling.
+
+3. Grind surface
+Once the damaged material is removed, grind the surface to bright metal.
+
+4. Preheat
+Before welding, preheat the component to the specified temperature.
+
+5. Apply weld passes
+Following preheating, apply weld passes according to the qualified WPS.
+
+6. Ultrasonic testing
+Then perform ultrasonic testing of the completed weld.
+
+7. Stress relief
+After ultrasonic testing, perform stress relief of the repaired area.
+
+8.1 Coating Touch-Up Procedure
+
+1. Clean the repaired area
+2. Apply primer
+3. Apply topcoat

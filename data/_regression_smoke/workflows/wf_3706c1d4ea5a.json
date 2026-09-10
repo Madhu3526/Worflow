@@ -1,0 +1,276 @@
+{
+  "workflow_id": "wf_3706c1d4ea5a",
+  "document": "prompt_engineering.txt",
+  "document_id": "doc_481ceb2eb3df",
+  "pages": [
+    1
+  ],
+  "sections": [
+    "The Anatomy of a Good Prompt"
+  ],
+  "nodes": [
+    {
+      "node_id": "n_act_52d223b48e92",
+      "actor": null,
+      "action": "role",
+      "object": null,
+      "order": 0,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Role",
+      "action_id": "act_52d223b48e92"
+    },
+    {
+      "node_id": "n_act_be1e9b4fb733",
+      "actor": null,
+      "action": "context",
+      "object": null,
+      "order": 1,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Context",
+      "action_id": "act_be1e9b4fb733"
+    },
+    {
+      "node_id": "n_act_8fe958c38667",
+      "actor": null,
+      "action": "objective",
+      "object": null,
+      "order": 2,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Objective",
+      "action_id": "act_8fe958c38667"
+    },
+    {
+      "node_id": "n_act_e3b045bdf17e",
+      "actor": null,
+      "action": "input",
+      "object": null,
+      "order": 3,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Input",
+      "action_id": "act_e3b045bdf17e"
+    },
+    {
+      "node_id": "n_act_2ea66eeb5a3d",
+      "actor": null,
+      "action": "tasks",
+      "object": null,
+      "order": 4,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Tasks",
+      "action_id": "act_2ea66eeb5a3d"
+    },
+    {
+      "node_id": "n_act_097bbfd8ed46",
+      "actor": null,
+      "action": "constraints",
+      "object": null,
+      "order": 5,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Constraints",
+      "action_id": "act_097bbfd8ed46"
+    },
+    {
+      "node_id": "n_act_e9dd84b90e93",
+      "actor": null,
+      "action": "output",
+      "object": "Format",
+      "order": 6,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Output Format",
+      "action_id": "act_e9dd84b90e93"
+    },
+    {
+      "node_id": "n_act_875d1ef8ee41",
+      "actor": null,
+      "action": "validation",
+      "object": null,
+      "order": 7,
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Validation",
+      "action_id": "act_875d1ef8ee41"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n_act_52d223b48e92",
+      "target": "n_act_be1e9b4fb733",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_be1e9b4fb733",
+      "target": "n_act_8fe958c38667",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8fe958c38667",
+      "target": "n_act_e3b045bdf17e",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_e3b045bdf17e",
+      "target": "n_act_2ea66eeb5a3d",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_2ea66eeb5a3d",
+      "target": "n_act_097bbfd8ed46",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_097bbfd8ed46",
+      "target": "n_act_e9dd84b90e93",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_e9dd84b90e93",
+      "target": "n_act_875d1ef8ee41",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_52d223b48e92",
+      "target": "n_act_be1e9b4fb733",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_be1e9b4fb733",
+      "target": "n_act_8fe958c38667",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8fe958c38667",
+      "target": "n_act_e3b045bdf17e",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_e3b045bdf17e",
+      "target": "n_act_2ea66eeb5a3d",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_2ea66eeb5a3d",
+      "target": "n_act_097bbfd8ed46",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_097bbfd8ed46",
+      "target": "n_act_e9dd84b90e93",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_e9dd84b90e93",
+      "target": "n_act_875d1ef8ee41",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Role",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_52d223b48e92"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Context",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_be1e9b4fb733"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Objective",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_8fe958c38667"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Input",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_e3b045bdf17e"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Tasks",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_2ea66eeb5a3d"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Constraints",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_097bbfd8ed46"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Output Format",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_e9dd84b90e93"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "The Anatomy of a Good Prompt",
+      "sentence": "Validation",
+      "chunk_id": "chunk_71330a47bc26",
+      "action_id": "act_875d1ef8ee41"
+    }
+  ],
+  "context_notes": [],
+  "summary": "The Anatomy of a Good Prompt: Operator performs: role → context → objective → input → tasks → constraints → output Format → validation",
+  "title_hint": "The Anatomy of a Good Prompt",
+  "group_id": "group_a9d94060cc20",
+  "merged_from": [],
+  "metadata": {
+    "boundary_confidence": 1.0,
+    "action_count": 8
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "workflows": [
+    {
+      "workflow_id": "wf_caa5787d9bee",
+      "document": "aircraft_manual.txt",
+      "document_id": "doc_c403a39807ba",
+      "title_hint": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure",
+      "summary": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure: Operator performs: inspect the crack \u2192 synthetic aircraft repair manual excerpt for regression tests \u2192 grind the surrounding surface \u2192 apply multiple weld \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform ultrasonic testing \u2192 perform stress relief",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure"
+      ],
+      "node_count": 10,
+      "edge_count": 15,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_0af60526043b",
+      "document": "aircraft_manual.txt",
+      "document_id": "doc_c403a39807ba",
+      "title_hint": "4.5  Engine Mount Bracket Weld Repair",
+      "summary": "4.5  Engine Mount Bracket Weld Repair: Operator performs: inspect the crack region \u2192 weld passes per the engine mount repair specification \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform 6 \u2192 perform dye penetrant testing",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "4.5  Engine Mount Bracket Weld Repair"
+      ],
+      "node_count": 8,
+      "edge_count": 12,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_3706c1d4ea5a",
+      "document": "prompt_engineering.txt",
+      "document_id": "doc_481ceb2eb3df",
+      "title_hint": "The Anatomy of a Good Prompt",
+      "summary": "The Anatomy of a Good Prompt: Operator performs: role \u2192 context \u2192 objective \u2192 input \u2192 tasks \u2192 constraints \u2192 output Format \u2192 validation",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "The Anatomy of a Good Prompt"
+      ],
+      "node_count": 8,
+      "edge_count": 14,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_3986e27a6a49",
+      "document": "prompt_engineering.txt",
+      "document_id": "doc_481ceb2eb3df",
+      "title_hint": "One Formula to Remember",
+      "summary": "One Formula to Remember: Operator performs: role \u2192 context \u2192 objective \u2192 input \u2192 tasks \u2192 constraints \u2192 output Format \u2192 validation",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "One Formula to Remember"
+      ],
+      "node_count": 8,
+      "edge_count": 14,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_d55160f80f96",
+      "document": "prompt_engineering.txt",
+      "document_id": "doc_481ceb2eb3df",
+      "title_hint": "Universal Prompt Template",
+      "summary": "Universal Prompt Template: Operator performs: define the role and expertise level required \u2192 provide background context about the task domain \u2192 state the objective in one clear sentence \u2192 list the input data or documents \u2192 break the work \u2192 perform 6 \u2192 specify constraints tone and formatting rules \u2192 perform Describe the expected output format \u2192 perform 8 \u2192 add validation or self - check instructions \u2192 specify edge cases to handle \u2192 perform 11 \u2192 review",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "Universal Prompt Template"
+      ],
+      "node_count": 13,
+      "edge_count": 21,
+      "merged_from": []
+    }
+  ],
+  "stats": {
+    "documents_processed": 2,
+    "workflows_found": 5,
+    "actions_extracted": 47,
+    "avg_confidence": 0.0,
+    "indexed_vectors": 99
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "workflow_id": "wf_62497e84dcab",
+  "document": "aircraft_manual.txt",
+  "document_id": "doc_0abc4de7bc66",
+  "pages": [
+    1
+  ],
+  "sections": [
+    "4.5  Engine Mount Bracket Weld Repair"
+  ],
+  "nodes": [
+    {
+      "node_id": "n_act_2919a06bc483",
+      "actor": null,
+      "action": "inspect",
+      "object": "the crack region",
+      "order": 0,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "1. Inspect the crack region",
+      "action_id": "act_2919a06bc483"
+    },
+    {
+      "node_id": "n_act_abdbaef9ae1c",
+      "actor": null,
+      "action": "weld",
+      "object": "passes per the engine mount repair specification",
+      "order": 1,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Apply weld passes per the engine mount repair specification.",
+      "action_id": "act_abdbaef9ae1c"
+    },
+    {
+      "node_id": "n_act_3fe8b05f3c91",
+      "actor": null,
+      "action": "remove",
+      "object": "damaged material",
+      "order": 2,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "2. Remove damaged material",
+      "action_id": "act_3fe8b05f3c91"
+    },
+    {
+      "node_id": "n_act_fe673daf2047",
+      "actor": null,
+      "action": "grind",
+      "object": "surface",
+      "order": 3,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "3. Grind surface",
+      "action_id": "act_fe673daf2047"
+    },
+    {
+      "node_id": "n_act_d4699ca9e6ca",
+      "actor": null,
+      "action": "preheat",
+      "object": null,
+      "order": 4,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "4. Preheat",
+      "action_id": "act_d4699ca9e6ca"
+    },
+    {
+      "node_id": "n_act_4ab7a2ba4a4d",
+      "actor": null,
+      "action": "apply",
+      "object": "weld",
+      "order": 5,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "5. Apply weld passes",
+      "action_id": "act_4ab7a2ba4a4d"
+    },
+    {
+      "node_id": "n_act_8e39e486ba47",
+      "actor": null,
+      "action": "perform",
+      "object": "6",
+      "order": 6,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "6.",
+      "action_id": "act_8e39e486ba47"
+    },
+    {
+      "node_id": "n_act_a0f9e88e500a",
+      "actor": null,
+      "action": "perform",
+      "object": "dye penetrant testing",
+      "order": 7,
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Perform dye penetrant testing",
+      "action_id": "act_a0f9e88e500a"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n_act_2919a06bc483",
+      "target": "n_act_3fe8b05f3c91",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_3fe8b05f3c91",
+      "target": "n_act_fe673daf2047",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_fe673daf2047",
+      "target": "n_act_d4699ca9e6ca",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_d4699ca9e6ca",
+      "target": "n_act_4ab7a2ba4a4d",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_4ab7a2ba4a4d",
+      "target": "n_act_8e39e486ba47",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8e39e486ba47",
+      "target": "n_act_a0f9e88e500a",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_a0f9e88e500a",
+      "target": "n_act_abdbaef9ae1c",
+      "relation": "NEXT",
+      "weight": 0.5,
+      "evidence": "document_order"
+    },
+    {
+      "source": "n_act_2919a06bc483",
+      "target": "n_act_3fe8b05f3c91",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_3fe8b05f3c91",
+      "target": "n_act_fe673daf2047",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_fe673daf2047",
+      "target": "n_act_d4699ca9e6ca",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_d4699ca9e6ca",
+      "target": "n_act_4ab7a2ba4a4d",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_4ab7a2ba4a4d",
+      "target": "n_act_8e39e486ba47",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "1. Inspect the crack region",
+      "chunk_id": "chunk_754bd3ea92eb",
+      "action_id": "act_2919a06bc483"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Inspect the crack region using magnetic particle inspection.",
+      "chunk_id": "chunk_f48453124d26",
+      "action_id": "act_3178a83be43c"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "2. Remove damaged material",
+      "chunk_id": "chunk_29e94d53347c",
+      "action_id": "act_3fe8b05f3c91"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Remove damaged material from the bracket weld zone.",
+      "chunk_id": "chunk_0cce340f47fd",
+      "action_id": "act_5ebc3de4660b"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "3. Grind surface",
+      "chunk_id": "chunk_cc551103fdec",
+      "action_id": "act_fe673daf2047"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Grind the surface to clean metal.",
+      "chunk_id": "chunk_e93683d46e4d",
+      "action_id": "act_ff88b0395654"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "4. Preheat",
+      "chunk_id": "chunk_caaf9504f4df",
+      "action_id": "act_d4699ca9e6ca"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "5. Apply weld passes",
+      "chunk_id": "chunk_88832fc52d37",
+      "action_id": "act_4ab7a2ba4a4d"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Apply weld passes per the engine mount repair specification.",
+      "chunk_id": "chunk_b68e8d757510",
+      "action_id": "act_abdbaef9ae1c"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "6.",
+      "chunk_id": "chunk_c7bb6b2678ae",
+      "action_id": "act_8e39e486ba47"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Perform dye penetrant testing",
+      "chunk_id": "chunk_c7bb6b2678ae",
+      "action_id": "act_a0f9e88e500a"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.5  Engine Mount Bracket Weld Repair",
+      "sentence": "Perform dye penetrant testing to confirm crack closure.",
+      "chunk_id": "chunk_3e3273c5d2d5",
+      "action_id": "act_1e5c02e8a5ab"
+    }
+  ],
+  "context_notes": [],
+  "summary": "4.5  Engine Mount Bracket Weld Repair: Operator performs: inspect the crack region → weld passes per the engine mount repair specification → remove damaged material → grind surface → preheat → apply weld → perform 6 → perform dye penetrant testing",
+  "title_hint": "4.5  Engine Mount Bracket Weld Repair",
+  "group_id": "group_cc958d2d5199",
+  "merged_from": [],
+  "metadata": {
+    "boundary_confidence": 0.64,
+    "action_count": 12
+  }
+}

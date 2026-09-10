@@ -1,0 +1,693 @@
+{
+  "dim": 384,
+  "entries": [
+    {
+      "vector_id": 0,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "summary",
+      "text": "4.5  Engine Mount Bracket Weld Repair: Operator performs: inspect the crack region \u2192 weld passes per the engine mount repair specification \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform 6 \u2192 perform dye penetrant testing"
+    },
+    {
+      "vector_id": 1,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "inspect the crack region",
+      "node_id": "n_act_4a9a2b48b9d1"
+    },
+    {
+      "vector_id": 2,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "1. Inspect the crack region",
+      "node_id": "n_act_4a9a2b48b9d1"
+    },
+    {
+      "vector_id": 3,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "weld passes per the engine mount repair specification",
+      "node_id": "n_act_19345ecb6a10"
+    },
+    {
+      "vector_id": 4,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "Apply weld passes per the engine mount repair specification.",
+      "node_id": "n_act_19345ecb6a10"
+    },
+    {
+      "vector_id": 5,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "remove damaged material",
+      "node_id": "n_act_4664815006be"
+    },
+    {
+      "vector_id": 6,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "2. Remove damaged material",
+      "node_id": "n_act_4664815006be"
+    },
+    {
+      "vector_id": 7,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "grind surface",
+      "node_id": "n_act_ef00065b573b"
+    },
+    {
+      "vector_id": 8,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "3. Grind surface",
+      "node_id": "n_act_ef00065b573b"
+    },
+    {
+      "vector_id": 9,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "preheat",
+      "node_id": "n_act_e08be12f41f3"
+    },
+    {
+      "vector_id": 10,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "4. Preheat",
+      "node_id": "n_act_e08be12f41f3"
+    },
+    {
+      "vector_id": 11,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "apply weld",
+      "node_id": "n_act_cb21b0f2be91"
+    },
+    {
+      "vector_id": 12,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "5. Apply weld passes",
+      "node_id": "n_act_cb21b0f2be91"
+    },
+    {
+      "vector_id": 13,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "perform 6",
+      "node_id": "n_act_5071593923f0"
+    },
+    {
+      "vector_id": 14,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "6.",
+      "node_id": "n_act_5071593923f0"
+    },
+    {
+      "vector_id": 15,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "node",
+      "text": "perform dye penetrant testing",
+      "node_id": "n_act_dfd90e0fbe54"
+    },
+    {
+      "vector_id": 16,
+      "workflow_id": "wf_0af60526043b",
+      "kind": "action",
+      "text": "Perform dye penetrant testing",
+      "node_id": "n_act_dfd90e0fbe54"
+    },
+    {
+      "vector_id": 17,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "summary",
+      "text": "The Anatomy of a Good Prompt: Operator performs: role \u2192 context \u2192 objective \u2192 input \u2192 tasks \u2192 constraints \u2192 output Format \u2192 validation"
+    },
+    {
+      "vector_id": 18,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "role",
+      "node_id": "n_act_52d223b48e92"
+    },
+    {
+      "vector_id": 19,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Role",
+      "node_id": "n_act_52d223b48e92"
+    },
+    {
+      "vector_id": 20,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "context",
+      "node_id": "n_act_be1e9b4fb733"
+    },
+    {
+      "vector_id": 21,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Context",
+      "node_id": "n_act_be1e9b4fb733"
+    },
+    {
+      "vector_id": 22,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "objective",
+      "node_id": "n_act_8fe958c38667"
+    },
+    {
+      "vector_id": 23,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Objective",
+      "node_id": "n_act_8fe958c38667"
+    },
+    {
+      "vector_id": 24,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "input",
+      "node_id": "n_act_e3b045bdf17e"
+    },
+    {
+      "vector_id": 25,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Input",
+      "node_id": "n_act_e3b045bdf17e"
+    },
+    {
+      "vector_id": 26,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "tasks",
+      "node_id": "n_act_2ea66eeb5a3d"
+    },
+    {
+      "vector_id": 27,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Tasks",
+      "node_id": "n_act_2ea66eeb5a3d"
+    },
+    {
+      "vector_id": 28,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "constraints",
+      "node_id": "n_act_097bbfd8ed46"
+    },
+    {
+      "vector_id": 29,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Constraints",
+      "node_id": "n_act_097bbfd8ed46"
+    },
+    {
+      "vector_id": 30,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "output Format",
+      "node_id": "n_act_e9dd84b90e93"
+    },
+    {
+      "vector_id": 31,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Output Format",
+      "node_id": "n_act_e9dd84b90e93"
+    },
+    {
+      "vector_id": 32,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "node",
+      "text": "validation",
+      "node_id": "n_act_875d1ef8ee41"
+    },
+    {
+      "vector_id": 33,
+      "workflow_id": "wf_3706c1d4ea5a",
+      "kind": "action",
+      "text": "Validation",
+      "node_id": "n_act_875d1ef8ee41"
+    },
+    {
+      "vector_id": 34,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "summary",
+      "text": "One Formula to Remember: Operator performs: role \u2192 context \u2192 objective \u2192 input \u2192 tasks \u2192 constraints \u2192 output Format \u2192 validation"
+    },
+    {
+      "vector_id": 35,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "role",
+      "node_id": "n_act_12fdce2ecb7f"
+    },
+    {
+      "vector_id": 36,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Role",
+      "node_id": "n_act_12fdce2ecb7f"
+    },
+    {
+      "vector_id": 37,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "context",
+      "node_id": "n_act_8595f9022b39"
+    },
+    {
+      "vector_id": 38,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Context",
+      "node_id": "n_act_8595f9022b39"
+    },
+    {
+      "vector_id": 39,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "objective",
+      "node_id": "n_act_8d88815b8e54"
+    },
+    {
+      "vector_id": 40,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Objective",
+      "node_id": "n_act_8d88815b8e54"
+    },
+    {
+      "vector_id": 41,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "input",
+      "node_id": "n_act_365c63b8ac71"
+    },
+    {
+      "vector_id": 42,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Input",
+      "node_id": "n_act_365c63b8ac71"
+    },
+    {
+      "vector_id": 43,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "tasks",
+      "node_id": "n_act_a129fa430297"
+    },
+    {
+      "vector_id": 44,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Tasks",
+      "node_id": "n_act_a129fa430297"
+    },
+    {
+      "vector_id": 45,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "constraints",
+      "node_id": "n_act_0caf466de8cc"
+    },
+    {
+      "vector_id": 46,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Constraints",
+      "node_id": "n_act_0caf466de8cc"
+    },
+    {
+      "vector_id": 47,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "output Format",
+      "node_id": "n_act_3b94e70041a5"
+    },
+    {
+      "vector_id": 48,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Output Format",
+      "node_id": "n_act_3b94e70041a5"
+    },
+    {
+      "vector_id": 49,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "node",
+      "text": "validation",
+      "node_id": "n_act_962f82e1470a"
+    },
+    {
+      "vector_id": 50,
+      "workflow_id": "wf_3986e27a6a49",
+      "kind": "action",
+      "text": "Validation",
+      "node_id": "n_act_962f82e1470a"
+    },
+    {
+      "vector_id": 51,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "summary",
+      "text": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure: Operator performs: inspect the crack \u2192 synthetic aircraft repair manual excerpt for regression tests \u2192 grind the surrounding surface \u2192 apply multiple weld \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform ultrasonic testing \u2192 perform stress relief"
+    },
+    {
+      "vector_id": 52,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "inspect the crack",
+      "node_id": "n_act_5725a4920dda"
+    },
+    {
+      "vector_id": 53,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "1. Inspect the crack",
+      "node_id": "n_act_5725a4920dda"
+    },
+    {
+      "vector_id": 54,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "synthetic aircraft repair manual excerpt for regression tests",
+      "node_id": "n_act_d705cf3e4d93"
+    },
+    {
+      "vector_id": 55,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "# Synthetic aircraft repair manual excerpt for regression tests.",
+      "node_id": "n_act_d705cf3e4d93"
+    },
+    {
+      "vector_id": 56,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "grind the surrounding surface",
+      "node_id": "n_act_7b766b1b2e69"
+    },
+    {
+      "vector_id": 57,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "Grind the surrounding surface to bright metal.",
+      "node_id": "n_act_7b766b1b2e69"
+    },
+    {
+      "vector_id": 58,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "apply multiple weld",
+      "node_id": "n_act_59ab3a83c95f"
+    },
+    {
+      "vector_id": 59,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "Apply multiple weld passes according to the qualified WPS.",
+      "node_id": "n_act_59ab3a83c95f"
+    },
+    {
+      "vector_id": 60,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "remove damaged material",
+      "node_id": "n_act_e33988b07d9a"
+    },
+    {
+      "vector_id": 61,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "2. Remove damaged material",
+      "node_id": "n_act_e33988b07d9a"
+    },
+    {
+      "vector_id": 62,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "grind surface",
+      "node_id": "n_act_8417a46d8fb4"
+    },
+    {
+      "vector_id": 63,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "3. Grind surface",
+      "node_id": "n_act_8417a46d8fb4"
+    },
+    {
+      "vector_id": 64,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "preheat",
+      "node_id": "n_act_bc727efe0b75"
+    },
+    {
+      "vector_id": 65,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "4. Preheat",
+      "node_id": "n_act_bc727efe0b75"
+    },
+    {
+      "vector_id": 66,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "apply weld",
+      "node_id": "n_act_6ee4cb6772c8"
+    },
+    {
+      "vector_id": 67,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "5. Apply weld passes",
+      "node_id": "n_act_6ee4cb6772c8"
+    },
+    {
+      "vector_id": 68,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "perform ultrasonic testing",
+      "node_id": "n_act_8a5848448e68"
+    },
+    {
+      "vector_id": 69,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "6. Perform ultrasonic testing",
+      "node_id": "n_act_8a5848448e68"
+    },
+    {
+      "vector_id": 70,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "node",
+      "text": "perform stress relief",
+      "node_id": "n_act_0970c48c339e"
+    },
+    {
+      "vector_id": 71,
+      "workflow_id": "wf_caa5787d9bee",
+      "kind": "action",
+      "text": "7. Perform stress relief",
+      "node_id": "n_act_0970c48c339e"
+    },
+    {
+      "vector_id": 72,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "summary",
+      "text": "Universal Prompt Template: Operator performs: define the role and expertise level required \u2192 provide background context about the task domain \u2192 state the objective in one clear sentence \u2192 list the input data or documents \u2192 break the work \u2192 perform 6 \u2192 specify constraints tone and formatting rules \u2192 perform Describe the expected output format \u2192 perform 8 \u2192 add validation or self - check instructions \u2192 specify edge cases to handle \u2192 perform 11 \u2192 review"
+    },
+    {
+      "vector_id": 73,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "define the role and expertise level required",
+      "node_id": "n_act_1a72975b05de"
+    },
+    {
+      "vector_id": 74,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "Define the role and expertise level required.",
+      "node_id": "n_act_1a72975b05de"
+    },
+    {
+      "vector_id": 75,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "provide background context about the task domain",
+      "node_id": "n_act_d601e3886a3c"
+    },
+    {
+      "vector_id": 76,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "2. Provide background context about the task domain.",
+      "node_id": "n_act_d601e3886a3c"
+    },
+    {
+      "vector_id": 77,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "state the objective in one clear sentence",
+      "node_id": "n_act_a84d48afee1b"
+    },
+    {
+      "vector_id": 78,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "3. State the objective in one clear sentence.",
+      "node_id": "n_act_a84d48afee1b"
+    },
+    {
+      "vector_id": 79,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "list the input data or documents",
+      "node_id": "n_act_7ed3921235de"
+    },
+    {
+      "vector_id": 80,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "4. List the input data or documents available.",
+      "node_id": "n_act_7ed3921235de"
+    },
+    {
+      "vector_id": 81,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "break the work",
+      "node_id": "n_act_50473cae34a2"
+    },
+    {
+      "vector_id": 82,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "5. Break the work into numbered subtasks.",
+      "node_id": "n_act_50473cae34a2"
+    },
+    {
+      "vector_id": 83,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "perform 6",
+      "node_id": "n_act_5a20255934a9"
+    },
+    {
+      "vector_id": 84,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "6.",
+      "node_id": "n_act_5a20255934a9"
+    },
+    {
+      "vector_id": 85,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "specify constraints tone and formatting rules",
+      "node_id": "n_act_67d83070555e"
+    },
+    {
+      "vector_id": 86,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "Specify constraints, tone, and formatting rules.",
+      "node_id": "n_act_67d83070555e"
+    },
+    {
+      "vector_id": 87,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "perform Describe the expected output format",
+      "node_id": "n_act_c4aea1a42b25"
+    },
+    {
+      "vector_id": 88,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "7. Describe the expected output format.",
+      "node_id": "n_act_c4aea1a42b25"
+    },
+    {
+      "vector_id": 89,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "perform 8",
+      "node_id": "n_act_19f45c9a3a11"
+    },
+    {
+      "vector_id": 90,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "8.",
+      "node_id": "n_act_19f45c9a3a11"
+    },
+    {
+      "vector_id": 91,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "add validation or self - check instructions",
+      "node_id": "n_act_f6f852f9ec74"
+    },
+    {
+      "vector_id": 92,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "Add validation or self-check instructions.",
+      "node_id": "n_act_f6f852f9ec74"
+    },
+    {
+      "vector_id": 93,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "specify edge cases to handle",
+      "node_id": "n_act_5745472dd700"
+    },
+    {
+      "vector_id": 94,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "10. Specify edge cases to handle.",
+      "node_id": "n_act_5745472dd700"
+    },
+    {
+      "vector_id": 95,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "perform 11",
+      "node_id": "n_act_06cbc178f71d"
+    },
+    {
+      "vector_id": 96,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "11.",
+      "node_id": "n_act_06cbc178f71d"
+    },
+    {
+      "vector_id": 97,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "node",
+      "text": "review",
+      "node_id": "n_act_5adb3807db07"
+    },
+    {
+      "vector_id": 98,
+      "workflow_id": "wf_d55160f80f96",
+      "kind": "action",
+      "text": "Review and refine the final prompt.",
+      "node_id": "n_act_5adb3807db07"
+    }
+  ]
+}

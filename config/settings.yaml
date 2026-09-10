@@ -1,0 +1,95 @@
+paths:
+  data_dir: data
+  workflows_dir: data/workflows
+  indexes_dir: data/indexes
+  logs_dir: logs
+  meta_file: data/workflows_meta.json
+  faiss_index: data/indexes/workflows.index
+  faiss_meta: data/indexes/faiss_meta.json
+
+parsing:
+  extract_tables: true
+  heading_font_size_delta: 2.0
+  min_heading_length: 3
+
+chunking:
+  # Semantic boundaries only — no fixed character splits
+  numbered_step_pattern: '^\s*(\d+[\.\)]\s+|\d+\.\d+\s+|Step\s+\d+[:\.\s]+|[a-z][\.\)]\s+|[-•▪]\s+)'
+  preserve_tables: true
+
+coref:
+  device: cpu
+  resolve_text: true
+  # Fallback to identity if model unavailable
+  allow_passthrough: true
+
+actions:
+  min_verb_length: 2
+  include_passive: true
+  spacy_model: en_core_web_sm
+  # Split compact process lists into separate actions before parsing
+  split_list_separators: true
+  split_on_newlines: true
+
+sequence_markers:
+  markers:
+    AFTER: [after, once, following, upon, subsequent to, thereafter]
+    BEFORE: [before, prior to, preceding]
+    THEN: [then, next, afterward, afterwards, subsequently]
+    IF: [if, when, whenever, provided that]
+  case_insensitive: true
+
+segmentation:
+  structural_weight: 0.35
+  lexical_weight: 0.40
+  continuity_weight: 0.25
+  boundary_threshold: 0.45
+  merge_low_confidence: true
+  merge_confidence_ceiling: 0.55
+  sequence_gap_window: 5
+  lexical_patterns:
+    - '^\d+\.\d+\s+.*Procedure'
+    - '^\d+\.\d+\s+.*Process'
+    - '^Repair of'
+    - '^Procedure\s*:'
+    - '^Method\s*:'
+    - '^\d+\.\s+[A-Z][A-Za-z\s]+Procedure'
+    - '^Appendix\s+[A-Z0-9]'
+    - '^[A-Z][A-Z\s]{4,}$'
+
+graph:
+  use_numbered_steps: true
+  use_document_order: true
+  use_discourse_edges: true
+
+similarity:
+  set_overlap_weight: 0.4
+  sequence_alignment_weight: 0.4
+  structural_weight: 0.2
+  query_semantic_weight: 0.6
+  query_set_overlap_weight: 0.4
+  action_cluster_threshold: 0.7
+  nw_gap_penalty: 0.35
+  graph_edit_timeout: 2.0
+  max_nodes_for_ged: 25
+
+deduplication:
+  cosine_threshold: 0.9
+  auto_merge: true
+
+embeddings:
+  model_name: all-MiniLM-L6-v2
+  device: cpu
+  batch_size: 32
+  normalize: true
+
+retrieval:
+  top_k: 5
+  min_score: 0.25
+  max_evidence_sentences: 8
+
+logging:
+  level: INFO
+  format: '%(asctime)s | %(levelname)-8s | %(name)s | %(message)s'
+
+

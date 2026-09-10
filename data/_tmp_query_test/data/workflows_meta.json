@@ -1,0 +1,45 @@
+{
+  "workflows": [
+    {
+      "workflow_id": "wf_f57f0d7b124a",
+      "document": "aircraft_manual.txt",
+      "document_id": "doc_0abc4de7bc66",
+      "title_hint": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure",
+      "summary": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure: Operator performs: inspect the crack \u2192 grind the surrounding surface \u2192 apply multiple weld \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform ultrasonic testing \u2192 perform stress relief",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure"
+      ],
+      "node_count": 9,
+      "edge_count": 14,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_62497e84dcab",
+      "document": "aircraft_manual.txt",
+      "document_id": "doc_0abc4de7bc66",
+      "title_hint": "4.5  Engine Mount Bracket Weld Repair",
+      "summary": "4.5  Engine Mount Bracket Weld Repair: Operator performs: inspect the crack region \u2192 weld passes per the engine mount repair specification \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform 6 \u2192 perform dye penetrant testing",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "4.5  Engine Mount Bracket Weld Repair"
+      ],
+      "node_count": 8,
+      "edge_count": 12,
+      "merged_from": []
+    }
+  ],
+  "stats": {
+    "documents_processed": 1,
+    "workflows_found": 2,
+    "actions_extracted": 17,
+    "avg_confidence": 0.0,
+    "indexed_vectors": 36
+  }
+}

@@ -1,0 +1,53 @@
+# Synthetic aircraft repair manual excerpt for regression tests.
+
+4.3  Fuselage Skin Crack — Field Repair Procedure
+
+1. Inspect the crack
+The certified structures technician shall inspect the crack and mark its extent.
+
+2. Remove damaged material
+Remove damaged material from the affected area.
+
+3. Grind surface
+Grind the surrounding surface to bright metal.
+
+4. Preheat
+Before welding, preheat the component to the specified temperature.
+
+5. Apply weld passes
+Apply multiple weld passes according to the qualified WPS.
+
+6. Once welding is complete, allow the component to air cool for 30 minutes.
+
+7. Following cooling, perform ultrasonic testing to confirm weld integrity.
+
+8. After ultrasonic testing passes, perform a stress relief heat treatment cycle.
+
+If ultrasonic testing indicates incomplete fusion, repeat steps 5–7 before proceeding to stress relief.
+
+4.5  Engine Mount Bracket Weld Repair
+
+This procedure applies to hairline cracks found on the engine mount bracket during borescope inspection.
+
+This procedure differs from the fuselage skin repair in preheat temperature and inspection method (dye penetrant vs. ultrasonic testing).
+
+1. Inspect the crack region
+Inspect the crack region using magnetic particle inspection.
+
+2. Remove damaged material
+Remove damaged material from the bracket weld zone.
+
+3. Grind surface
+Grind the surface to clean metal.
+
+4. Preheat
+Before welding, preheat the bracket to 120°C.
+
+5. Apply weld passes
+Apply weld passes per the engine mount repair specification.
+
+6. Perform dye penetrant testing
+Perform dye penetrant testing to confirm crack closure.
+
+7. Perform stress relief
+Perform stress relief of the repaired bracket weld zone.

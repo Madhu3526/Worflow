@@ -1,0 +1,101 @@
+2026-07-18 22:49:34,548 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:34,667 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:34,982 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:34,983 | WARNING  | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-18 22:49:35,045 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:35,387 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:35,507 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:35,866 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:36,228 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-18 22:49:37,197 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:37,339 | WARNING  | coref | fastcoref unavailable ('FCorefModel' object has no attribute 'all_tied_weights_keys'); using heuristic coref passthrough
+2026-07-18 22:49:37,472 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref "HTTP/1.1 200 OK"
+2026-07-18 22:49:38,027 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/main "HTTP/1.1 200 OK"
+2026-07-18 22:49:38,388 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/discussions?p=0 "HTTP/1.1 200 OK"
+2026-07-18 22:49:38,424 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:38,533 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:38,705 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-07-18 22:49:38,872 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:38,987 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:38,993 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:39,330 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:39,332 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-07-18 22:49:39,377 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:39,706 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:39,977 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-18 22:49:40,843 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:40,922 | WARNING  | coref | fastcoref unavailable ('FCorefModel' object has no attribute 'all_tied_weights_keys'); using heuristic coref passthrough
+2026-07-18 22:49:40,947 | INFO     | faiss.loader | Loading faiss with AVX2 support.
+2026-07-18 22:49:40,947 | INFO     | faiss.loader | Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-07-18 22:49:40,947 | INFO     | faiss.loader | Loading faiss.
+2026-07-18 22:49:40,976 | INFO     | faiss.loader | Successfully loaded faiss.
+2026-07-18 22:49:40,983 | INFO     | pipeline | === Processing document: aircraft_manual.txt ===
+2026-07-18 22:49:40,983 | INFO     | parser | Parsing aircraft_manual.txt with TxtParser
+2026-07-18 22:49:40,985 | INFO     | parser | Parsed aircraft_manual.txt: 31 units, 2 pages
+2026-07-18 22:49:40,985 | INFO     | chunking | Chunked aircraft_manual.txt into 31 semantic chunks
+2026-07-18 22:49:41,146 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref "HTTP/1.1 200 OK"
+2026-07-18 22:49:41,236 | INFO     | actions | Extracted 25 actions, 2 context notes from 31 chunks
+2026-07-18 22:49:41,258 | INFO     | sequence_markers | Extracted 13 sequence-marker edges
+2026-07-18 22:49:41,258 | INFO     | segmentation | Segmented 25 actions into 2 action groups (1 boundaries)
+2026-07-18 22:49:41,692 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/main "HTTP/1.1 200 OK"
+2026-07-18 22:49:41,958 | INFO     | embeddings | Loading embedding model all-MiniLM-L6-v2 on cpu
+2026-07-18 22:49:42,107 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/discussions?p=0 "HTTP/1.1 200 OK"
+2026-07-18 22:49:42,264 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:42,317 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:42,471 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-07-18 22:49:42,592 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:42,708 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:42,712 | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-18 22:49:42,806 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:43,007 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:43,053 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:43,190 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-07-18 22:49:43,430 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:43,545 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-18 22:49:43,908 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:44,028 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:44,332 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:44,420 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:44,748 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:45,073 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:45,142 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:45,481 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:45,762 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:46,075 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:46,428 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:46,721 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:46,795 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:47,056 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:47,153 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:47,420 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:47,510 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:47,780 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:47,988 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:48,349 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:48,706 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-18 22:49:49,068 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:49,296 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:49,602 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-18 22:49:49,760 | INFO     | storage | Saved workflow wf_f57f0d7b124a → wf_f57f0d7b124a.json
+2026-07-18 22:49:49,800 | INFO     | storage | Saved workflow wf_62497e84dcab → wf_62497e84dcab.json
+2026-07-18 22:49:49,843 | INFO     | embeddings | Persisted FAISS index (0 vectors)
+2026-07-18 22:49:49,994 | INFO     | embeddings | Persisted FAISS index (36 vectors)
+2026-07-18 22:49:50,008 | INFO     | pipeline | Done aircraft_manual.txt: 31 chunks, 25 actions, 2 workflows (0 merged)
+2026-07-18 22:49:50,702 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:50,801 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:51,074 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:51,110 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:51,405 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 22:49:51,504 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 22:49:51,804 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:52,104 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-18 22:49:52,916 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:52,987 | WARNING  | coref | fastcoref unavailable ('FCorefModel' object has no attribute 'all_tied_weights_keys'); using heuristic coref passthrough
+2026-07-18 22:49:53,028 | INFO     | actions | Extracted 1 actions, 0 context notes from 1 chunks
+2026-07-18 22:49:53,213 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref "HTTP/1.1 200 OK"
+2026-07-18 22:49:53,522 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/main "HTTP/1.1 200 OK"
+2026-07-18 22:49:53,808 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/discussions?p=0 "HTTP/1.1 200 OK"
+2026-07-18 22:49:54,088 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-07-18 22:49:54,426 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-07-18 22:49:54,729 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"

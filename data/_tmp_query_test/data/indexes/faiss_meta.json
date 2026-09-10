@@ -1,0 +1,255 @@
+{
+  "dim": 384,
+  "entries": [
+    {
+      "vector_id": 0,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "summary",
+      "text": "4.5  Engine Mount Bracket Weld Repair: Operator performs: inspect the crack region \u2192 weld passes per the engine mount repair specification \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform 6 \u2192 perform dye penetrant testing"
+    },
+    {
+      "vector_id": 1,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "inspect the crack region",
+      "node_id": "n_act_2919a06bc483"
+    },
+    {
+      "vector_id": 2,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "1. Inspect the crack region",
+      "node_id": "n_act_2919a06bc483"
+    },
+    {
+      "vector_id": 3,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "weld passes per the engine mount repair specification",
+      "node_id": "n_act_abdbaef9ae1c"
+    },
+    {
+      "vector_id": 4,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "Apply weld passes per the engine mount repair specification.",
+      "node_id": "n_act_abdbaef9ae1c"
+    },
+    {
+      "vector_id": 5,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "remove damaged material",
+      "node_id": "n_act_3fe8b05f3c91"
+    },
+    {
+      "vector_id": 6,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "2. Remove damaged material",
+      "node_id": "n_act_3fe8b05f3c91"
+    },
+    {
+      "vector_id": 7,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "grind surface",
+      "node_id": "n_act_fe673daf2047"
+    },
+    {
+      "vector_id": 8,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "3. Grind surface",
+      "node_id": "n_act_fe673daf2047"
+    },
+    {
+      "vector_id": 9,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "preheat",
+      "node_id": "n_act_d4699ca9e6ca"
+    },
+    {
+      "vector_id": 10,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "4. Preheat",
+      "node_id": "n_act_d4699ca9e6ca"
+    },
+    {
+      "vector_id": 11,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "apply weld",
+      "node_id": "n_act_4ab7a2ba4a4d"
+    },
+    {
+      "vector_id": 12,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "5. Apply weld passes",
+      "node_id": "n_act_4ab7a2ba4a4d"
+    },
+    {
+      "vector_id": 13,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "perform 6",
+      "node_id": "n_act_8e39e486ba47"
+    },
+    {
+      "vector_id": 14,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "6.",
+      "node_id": "n_act_8e39e486ba47"
+    },
+    {
+      "vector_id": 15,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "node",
+      "text": "perform dye penetrant testing",
+      "node_id": "n_act_a0f9e88e500a"
+    },
+    {
+      "vector_id": 16,
+      "workflow_id": "wf_62497e84dcab",
+      "kind": "action",
+      "text": "Perform dye penetrant testing",
+      "node_id": "n_act_a0f9e88e500a"
+    },
+    {
+      "vector_id": 17,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "summary",
+      "text": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure: Operator performs: inspect the crack \u2192 grind the surrounding surface \u2192 apply multiple weld \u2192 remove damaged material \u2192 grind surface \u2192 preheat \u2192 apply weld \u2192 perform ultrasonic testing \u2192 perform stress relief"
+    },
+    {
+      "vector_id": 18,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "inspect the crack",
+      "node_id": "n_act_cf15bbd11630"
+    },
+    {
+      "vector_id": 19,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "1. Inspect the crack",
+      "node_id": "n_act_cf15bbd11630"
+    },
+    {
+      "vector_id": 20,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "grind the surrounding surface",
+      "node_id": "n_act_caf50e0a9ace"
+    },
+    {
+      "vector_id": 21,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "Grind the surrounding surface to bright metal.",
+      "node_id": "n_act_caf50e0a9ace"
+    },
+    {
+      "vector_id": 22,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "apply multiple weld",
+      "node_id": "n_act_9e4950a4adc8"
+    },
+    {
+      "vector_id": 23,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "Apply multiple weld passes according to the qualified WPS.",
+      "node_id": "n_act_9e4950a4adc8"
+    },
+    {
+      "vector_id": 24,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "remove damaged material",
+      "node_id": "n_act_3c5523c16ec6"
+    },
+    {
+      "vector_id": 25,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "2. Remove damaged material",
+      "node_id": "n_act_3c5523c16ec6"
+    },
+    {
+      "vector_id": 26,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "grind surface",
+      "node_id": "n_act_1d670c53c295"
+    },
+    {
+      "vector_id": 27,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "3. Grind surface",
+      "node_id": "n_act_1d670c53c295"
+    },
+    {
+      "vector_id": 28,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "preheat",
+      "node_id": "n_act_9ed27742fd8d"
+    },
+    {
+      "vector_id": 29,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "4. Preheat",
+      "node_id": "n_act_9ed27742fd8d"
+    },
+    {
+      "vector_id": 30,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "apply weld",
+      "node_id": "n_act_5ca723f5e71a"
+    },
+    {
+      "vector_id": 31,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "5. Apply weld passes",
+      "node_id": "n_act_5ca723f5e71a"
+    },
+    {
+      "vector_id": 32,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "perform ultrasonic testing",
+      "node_id": "n_act_d120d88a9a73"
+    },
+    {
+      "vector_id": 33,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "6. Perform ultrasonic testing",
+      "node_id": "n_act_d120d88a9a73"
+    },
+    {
+      "vector_id": 34,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "node",
+      "text": "perform stress relief",
+      "node_id": "n_act_06f503fbc997"
+    },
+    {
+      "vector_id": 35,
+      "workflow_id": "wf_f57f0d7b124a",
+      "kind": "action",
+      "text": "7. Perform stress relief",
+      "node_id": "n_act_06f503fbc997"
+    }
+  ]
+}

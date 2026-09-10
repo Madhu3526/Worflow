@@ -1,0 +1,79 @@
+{
+  "workflows": [
+    {
+      "workflow_id": "wf_1e28878f7cbc",
+      "document": "Sample_Aircraft_Repair_Manual.docx",
+      "document_id": "doc_eb9be1d2ef95",
+      "title_hint": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure",
+      "summary": "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure: Operator performs: inspect the crack \u2192 remove the damaged material \u2192 grind the surrounding surface \u2192 preheat the component \u2192 apply multiple weld passes \u2192 cool component \u2192 perform ultrasonic testing to confirm weld integrity \u2192 perform a stress relief heat treatment cycle",
+      "pages": [
+        1
+      ],
+      "page_range": "1",
+      "sections": [
+        "4.3  Fuselage Skin Crack \u2014 Field Repair Procedure"
+      ],
+      "node_count": 8,
+      "edge_count": 14,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_9029e1c29d1c",
+      "document": "Sample_Aircraft_Repair_Manual.docx",
+      "document_id": "doc_eb9be1d2ef95",
+      "title_hint": "4.4  Landing Gear Bolt Torque Verification",
+      "summary": "4.4  Landing Gear Bolt Torque Verification: Torque values performs: remove the access panel \u2192 inspect each bolt \u2192 clean the bolt threads \u2192 apply torque \u2192 mark the bolt head \u2192 reinstall the access panel \u2192 exceed the limits specified in Table 4.4",
+      "pages": [
+        2
+      ],
+      "page_range": "2",
+      "sections": [
+        "4.4  Landing Gear Bolt Torque Verification"
+      ],
+      "node_count": 7,
+      "edge_count": 11,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_50104beffc0c",
+      "document": "Sample_Aircraft_Repair_Manual.docx",
+      "document_id": "doc_eb9be1d2ef95",
+      "title_hint": "4.5  Engine Mount Bracket Weld Repair",
+      "summary": "4.5  Engine Mount Bracket Weld Repair: Operator performs: inspect the crack region \u2192 remove the damaged material \u2192 grind the surface \u2192 preheat the bracket \u2192 apply weld passes per the engine mount repair specification \u2192 perform dye penetrant testing to confirm crack closure \u2192 perform a localized stress relief treatment",
+      "pages": [
+        3
+      ],
+      "page_range": "3",
+      "sections": [
+        "4.5  Engine Mount Bracket Weld Repair"
+      ],
+      "node_count": 7,
+      "edge_count": 12,
+      "merged_from": []
+    },
+    {
+      "workflow_id": "wf_b24b2988c0e3",
+      "document": "Sample_Aircraft_Repair_Manual.docx",
+      "document_id": "doc_eb9be1d2ef95",
+      "title_hint": "4.6  Cabin Window Seal Replacement",
+      "summary": "4.6  Cabin Window Seal Replacement: Operator performs: remove the interior window trim panel \u2192 extract the old seal using a plastic trim tool \u2192 clean the seal channel of adhesive residue \u2192 apply new adhesive primer \u2192 install the replacement seal \u2192 reinstall the trim panel \u2192 use metal tools",
+      "pages": [
+        4
+      ],
+      "page_range": "4",
+      "sections": [
+        "4.6  Cabin Window Seal Replacement"
+      ],
+      "node_count": 7,
+      "edge_count": 11,
+      "merged_from": []
+    }
+  ],
+  "stats": {
+    "documents_processed": 1,
+    "workflows_found": 4,
+    "actions_extracted": 29,
+    "avg_confidence": 0.0,
+    "indexed_vectors": 62
+  }
+}

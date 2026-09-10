@@ -1,0 +1,353 @@
+{
+  "workflow_id": "wf_caa5787d9bee",
+  "document": "aircraft_manual.txt",
+  "document_id": "doc_c403a39807ba",
+  "pages": [
+    1
+  ],
+  "sections": [
+    "4.3  Fuselage Skin Crack — Field Repair Procedure"
+  ],
+  "nodes": [
+    {
+      "node_id": "n_act_5725a4920dda",
+      "actor": null,
+      "action": "inspect",
+      "object": "the crack",
+      "order": 0,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "1. Inspect the crack",
+      "action_id": "act_5725a4920dda"
+    },
+    {
+      "node_id": "n_act_d705cf3e4d93",
+      "actor": null,
+      "action": "synthetic",
+      "object": "aircraft repair manual excerpt for regression tests",
+      "order": 1,
+      "page": 1,
+      "section": null,
+      "sentence": "# Synthetic aircraft repair manual excerpt for regression tests.",
+      "action_id": "act_d705cf3e4d93"
+    },
+    {
+      "node_id": "n_act_7b766b1b2e69",
+      "actor": null,
+      "action": "grind",
+      "object": "the surrounding surface",
+      "order": 2,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "Grind the surrounding surface to bright metal.",
+      "action_id": "act_7b766b1b2e69"
+    },
+    {
+      "node_id": "n_act_59ab3a83c95f",
+      "actor": null,
+      "action": "apply",
+      "object": "multiple weld",
+      "order": 3,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "Apply multiple weld passes according to the qualified WPS.",
+      "action_id": "act_59ab3a83c95f"
+    },
+    {
+      "node_id": "n_act_e33988b07d9a",
+      "actor": null,
+      "action": "remove",
+      "object": "damaged material",
+      "order": 4,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "2. Remove damaged material",
+      "action_id": "act_e33988b07d9a"
+    },
+    {
+      "node_id": "n_act_8417a46d8fb4",
+      "actor": null,
+      "action": "grind",
+      "object": "surface",
+      "order": 5,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "3. Grind surface",
+      "action_id": "act_8417a46d8fb4"
+    },
+    {
+      "node_id": "n_act_bc727efe0b75",
+      "actor": null,
+      "action": "preheat",
+      "object": null,
+      "order": 6,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "4. Preheat",
+      "action_id": "act_bc727efe0b75"
+    },
+    {
+      "node_id": "n_act_6ee4cb6772c8",
+      "actor": null,
+      "action": "apply",
+      "object": "weld",
+      "order": 7,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "5. Apply weld passes",
+      "action_id": "act_6ee4cb6772c8"
+    },
+    {
+      "node_id": "n_act_8a5848448e68",
+      "actor": null,
+      "action": "perform",
+      "object": "ultrasonic testing",
+      "order": 8,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "6. Perform ultrasonic testing",
+      "action_id": "act_8a5848448e68"
+    },
+    {
+      "node_id": "n_act_0970c48c339e",
+      "actor": null,
+      "action": "perform",
+      "object": "stress relief",
+      "order": 9,
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "7. Perform stress relief",
+      "action_id": "act_0970c48c339e"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n_act_5725a4920dda",
+      "target": "n_act_e33988b07d9a",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_e33988b07d9a",
+      "target": "n_act_8417a46d8fb4",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8417a46d8fb4",
+      "target": "n_act_bc727efe0b75",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_bc727efe0b75",
+      "target": "n_act_6ee4cb6772c8",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_6ee4cb6772c8",
+      "target": "n_act_8a5848448e68",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8a5848448e68",
+      "target": "n_act_0970c48c339e",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_0970c48c339e",
+      "target": "n_act_d705cf3e4d93",
+      "relation": "NEXT",
+      "weight": 0.5,
+      "evidence": "document_order"
+    },
+    {
+      "source": "n_act_d705cf3e4d93",
+      "target": "n_act_7b766b1b2e69",
+      "relation": "NEXT",
+      "weight": 0.5,
+      "evidence": "document_order"
+    },
+    {
+      "source": "n_act_7b766b1b2e69",
+      "target": "n_act_59ab3a83c95f",
+      "relation": "NEXT",
+      "weight": 0.5,
+      "evidence": "document_order"
+    },
+    {
+      "source": "n_act_5725a4920dda",
+      "target": "n_act_e33988b07d9a",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_e33988b07d9a",
+      "target": "n_act_8417a46d8fb4",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8417a46d8fb4",
+      "target": "n_act_bc727efe0b75",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_bc727efe0b75",
+      "target": "n_act_6ee4cb6772c8",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_6ee4cb6772c8",
+      "target": "n_act_8a5848448e68",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_8a5848448e68",
+      "target": "n_act_0970c48c339e",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": null,
+      "sentence": "# Synthetic aircraft repair manual excerpt for regression tests.",
+      "chunk_id": "chunk_334143d217aa",
+      "action_id": "act_d705cf3e4d93"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "1. Inspect the crack",
+      "chunk_id": "chunk_5e3a47ae4dd5",
+      "action_id": "act_5725a4920dda"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "The certified structures technician shall inspect the crack and mark its extent.",
+      "chunk_id": "chunk_cb8b2080263d",
+      "action_id": "act_e3b6bcf8219e"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "2. Remove damaged material",
+      "chunk_id": "chunk_612beaed35ce",
+      "action_id": "act_e33988b07d9a"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "Remove damaged material from the affected area.",
+      "chunk_id": "chunk_38f0bb217440",
+      "action_id": "act_10688e384fc7"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "3. Grind surface",
+      "chunk_id": "chunk_ba2df8b3932c",
+      "action_id": "act_8417a46d8fb4"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "Grind the surrounding surface to bright metal.",
+      "chunk_id": "chunk_d6d82f85d808",
+      "action_id": "act_7b766b1b2e69"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "4. Preheat",
+      "chunk_id": "chunk_9fb00447cfc5",
+      "action_id": "act_bc727efe0b75"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "5. Apply weld passes",
+      "chunk_id": "chunk_dba86a34c9d7",
+      "action_id": "act_6ee4cb6772c8"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "Apply multiple weld passes according to the qualified WPS.",
+      "chunk_id": "chunk_0e9b371890ab",
+      "action_id": "act_59ab3a83c95f"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "6. Perform ultrasonic testing",
+      "chunk_id": "chunk_c712cd5c533b",
+      "action_id": "act_8a5848448e68"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "Perform ultrasonic testing to confirm weld integrity.",
+      "chunk_id": "chunk_e21c4db0267f",
+      "action_id": "act_a667b3c04d49"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "7. Perform stress relief",
+      "chunk_id": "chunk_64d1edf51d6e",
+      "action_id": "act_0970c48c339e"
+    },
+    {
+      "document": "aircraft_manual.txt",
+      "page": 1,
+      "section": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+      "sentence": "Perform stress relief of the repaired area.",
+      "chunk_id": "chunk_f1edfde30030",
+      "action_id": "act_028905fdd3ec"
+    }
+  ],
+  "context_notes": [],
+  "summary": "4.3  Fuselage Skin Crack — Field Repair Procedure: Operator performs: inspect the crack → synthetic aircraft repair manual excerpt for regression tests → grind the surrounding surface → apply multiple weld → remove damaged material → grind surface → preheat → apply weld → perform ultrasonic testing → perform stress relief",
+  "title_hint": "4.3  Fuselage Skin Crack — Field Repair Procedure",
+  "group_id": "group_9bf92e8d8582",
+  "merged_from": [],
+  "metadata": {
+    "boundary_confidence": 0.6566666666666667,
+    "action_count": 14
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "workflow_id": "wf_d55160f80f96",
+  "document": "prompt_engineering.txt",
+  "document_id": "doc_481ceb2eb3df",
+  "pages": [
+    1
+  ],
+  "sections": [
+    "Universal Prompt Template"
+  ],
+  "nodes": [
+    {
+      "node_id": "n_act_1a72975b05de",
+      "actor": null,
+      "action": "define",
+      "object": "the role and expertise level required",
+      "order": 0,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Define the role and expertise level required.",
+      "action_id": "act_1a72975b05de"
+    },
+    {
+      "node_id": "n_act_d601e3886a3c",
+      "actor": null,
+      "action": "provide",
+      "object": "background context about the task domain",
+      "order": 1,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "2. Provide background context about the task domain.",
+      "action_id": "act_d601e3886a3c"
+    },
+    {
+      "node_id": "n_act_a84d48afee1b",
+      "actor": null,
+      "action": "state",
+      "object": "the objective in one clear sentence",
+      "order": 2,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "3. State the objective in one clear sentence.",
+      "action_id": "act_a84d48afee1b"
+    },
+    {
+      "node_id": "n_act_7ed3921235de",
+      "actor": null,
+      "action": "list",
+      "object": "the input data or documents",
+      "order": 3,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "4. List the input data or documents available.",
+      "action_id": "act_7ed3921235de"
+    },
+    {
+      "node_id": "n_act_50473cae34a2",
+      "actor": null,
+      "action": "break",
+      "object": "the work",
+      "order": 4,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "5. Break the work into numbered subtasks.",
+      "action_id": "act_50473cae34a2"
+    },
+    {
+      "node_id": "n_act_5a20255934a9",
+      "actor": null,
+      "action": "perform",
+      "object": "6",
+      "order": 5,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "6.",
+      "action_id": "act_5a20255934a9"
+    },
+    {
+      "node_id": "n_act_67d83070555e",
+      "actor": null,
+      "action": "specify",
+      "object": "constraints tone and formatting rules",
+      "order": 6,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Specify constraints, tone, and formatting rules.",
+      "action_id": "act_67d83070555e"
+    },
+    {
+      "node_id": "n_act_c4aea1a42b25",
+      "actor": null,
+      "action": "perform",
+      "object": "Describe the expected output format",
+      "order": 7,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "7. Describe the expected output format.",
+      "action_id": "act_c4aea1a42b25"
+    },
+    {
+      "node_id": "n_act_19f45c9a3a11",
+      "actor": null,
+      "action": "perform",
+      "object": "8",
+      "order": 8,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "8.",
+      "action_id": "act_19f45c9a3a11"
+    },
+    {
+      "node_id": "n_act_f6f852f9ec74",
+      "actor": null,
+      "action": "add",
+      "object": "validation or self - check instructions",
+      "order": 9,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Add validation or self-check instructions.",
+      "action_id": "act_f6f852f9ec74"
+    },
+    {
+      "node_id": "n_act_5745472dd700",
+      "actor": null,
+      "action": "specify",
+      "object": "edge cases to handle",
+      "order": 10,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "10. Specify edge cases to handle.",
+      "action_id": "act_5745472dd700"
+    },
+    {
+      "node_id": "n_act_06cbc178f71d",
+      "actor": null,
+      "action": "perform",
+      "object": "11",
+      "order": 11,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "11.",
+      "action_id": "act_06cbc178f71d"
+    },
+    {
+      "node_id": "n_act_5adb3807db07",
+      "actor": null,
+      "action": "review",
+      "object": null,
+      "order": 12,
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Review and refine the final prompt.",
+      "action_id": "act_5adb3807db07"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n_act_1a72975b05de",
+      "target": "n_act_d601e3886a3c",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_d601e3886a3c",
+      "target": "n_act_a84d48afee1b",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_a84d48afee1b",
+      "target": "n_act_7ed3921235de",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_7ed3921235de",
+      "target": "n_act_50473cae34a2",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_50473cae34a2",
+      "target": "n_act_5a20255934a9",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_5a20255934a9",
+      "target": "n_act_67d83070555e",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_67d83070555e",
+      "target": "n_act_c4aea1a42b25",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_c4aea1a42b25",
+      "target": "n_act_19f45c9a3a11",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_19f45c9a3a11",
+      "target": "n_act_f6f852f9ec74",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_f6f852f9ec74",
+      "target": "n_act_5745472dd700",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_5745472dd700",
+      "target": "n_act_06cbc178f71d",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_06cbc178f71d",
+      "target": "n_act_5adb3807db07",
+      "relation": "NEXT",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_1a72975b05de",
+      "target": "n_act_d601e3886a3c",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_d601e3886a3c",
+      "target": "n_act_a84d48afee1b",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_a84d48afee1b",
+      "target": "n_act_7ed3921235de",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_7ed3921235de",
+      "target": "n_act_50473cae34a2",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_50473cae34a2",
+      "target": "n_act_5a20255934a9",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_67d83070555e",
+      "target": "n_act_c4aea1a42b25",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_c4aea1a42b25",
+      "target": "n_act_19f45c9a3a11",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_f6f852f9ec74",
+      "target": "n_act_5745472dd700",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    },
+    {
+      "source": "n_act_5745472dd700",
+      "target": "n_act_06cbc178f71d",
+      "relation": "THEN",
+      "weight": 1.0,
+      "evidence": "numbered_step"
+    }
+  ],
+  "evidence_sources": [
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "1.",
+      "chunk_id": "chunk_4efdd5533ec4",
+      "action_id": "act_0605fd475d68"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Define the role and expertise level required.",
+      "chunk_id": "chunk_4efdd5533ec4",
+      "action_id": "act_1a72975b05de"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "2. Provide background context about the task domain.",
+      "chunk_id": "chunk_b6296d6e8980",
+      "action_id": "act_d601e3886a3c"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "3. State the objective in one clear sentence.",
+      "chunk_id": "chunk_c223cab6c32f",
+      "action_id": "act_a84d48afee1b"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "4. List the input data or documents available.",
+      "chunk_id": "chunk_295fa44345e3",
+      "action_id": "act_7ed3921235de"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "5. Break the work into numbered subtasks.",
+      "chunk_id": "chunk_796bf46039e7",
+      "action_id": "act_50473cae34a2"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "6.",
+      "chunk_id": "chunk_7b46d867ba28",
+      "action_id": "act_5a20255934a9"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Specify constraints, tone, and formatting rules.",
+      "chunk_id": "chunk_7b46d867ba28",
+      "action_id": "act_67d83070555e"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "7. Describe the expected output format.",
+      "chunk_id": "chunk_81f20a2cf289",
+      "action_id": "act_c4aea1a42b25"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "8.",
+      "chunk_id": "chunk_02fd571a69f4",
+      "action_id": "act_19f45c9a3a11"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Add validation or self-check instructions.",
+      "chunk_id": "chunk_02fd571a69f4",
+      "action_id": "act_f6f852f9ec74"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "10. Specify edge cases to handle.",
+      "chunk_id": "chunk_242d27d4326f",
+      "action_id": "act_5745472dd700"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "11.",
+      "chunk_id": "chunk_9e7ea6141ab0",
+      "action_id": "act_06cbc178f71d"
+    },
+    {
+      "document": "prompt_engineering.txt",
+      "page": 1,
+      "section": "Universal Prompt Template",
+      "sentence": "Review and refine the final prompt.",
+      "chunk_id": "chunk_9e7ea6141ab0",
+      "action_id": "act_5adb3807db07"
+    }
+  ],
+  "context_notes": [],
+  "summary": "Universal Prompt Template: Operator performs: define the role and expertise level required → provide background context about the task domain → state the objective in one clear sentence → list the input data or documents → break the work → perform 6 → specify constraints tone and formatting rules → perform Describe the expected output format → perform 8 → add validation or self - check instructions → specify edge cases to handle → perform 11 → review",
+  "title_hint": "Universal Prompt Template",
+  "group_id": "group_b687d9e00eb0",
+  "merged_from": [],
+  "metadata": {
+    "boundary_confidence": 0.6042857142857143,
+    "action_count": 14
+  }
+}

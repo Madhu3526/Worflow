@@ -1,0 +1,83 @@
+2026-07-18 21:31:41,073 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:41,199 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:41,525 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:41,527 | WARNING  | huggingface_hub.utils._http | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-18 21:31:41,562 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:41,873 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:41,974 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/biu-nlp/f-coref/e91dfff12879495d882ba9460d0c5d5dd44ade59/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:42,317 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:42,606 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-18 21:31:45,050 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:45,450 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref "HTTP/1.1 200 OK"
+2026-07-18 21:31:45,762 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/main "HTTP/1.1 200 OK"
+2026-07-18 21:31:45,936 | WARNING  | coref | fastcoref unavailable ('FCorefModel' object has no attribute 'all_tied_weights_keys'); using heuristic coref passthrough
+2026-07-18 21:31:46,074 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/discussions?p=0 "HTTP/1.1 200 OK"
+2026-07-18 21:31:46,470 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/biu-nlp/f-coref/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-07-18 21:31:46,807 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:47,199 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/biu-nlp/f-coref/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-07-18 21:31:47,937 | INFO     | faiss.loader | Loading faiss with AVX2 support.
+2026-07-18 21:31:47,939 | INFO     | faiss.loader | Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-07-18 21:31:47,940 | INFO     | faiss.loader | Loading faiss.
+2026-07-18 21:31:48,027 | INFO     | faiss.loader | Successfully loaded faiss.
+2026-07-18 21:31:48,054 | INFO     | pipeline | === Processing document: aircraft_manual.txt ===
+2026-07-18 21:31:48,057 | INFO     | parser | Parsing aircraft_manual.txt with TxtParser
+2026-07-18 21:31:48,065 | INFO     | parser | Parsed aircraft_manual.txt: 32 units, 1 pages
+2026-07-18 21:31:48,068 | INFO     | chunking | Chunked aircraft_manual.txt into 32 semantic chunks
+2026-07-18 21:31:48,851 | INFO     | actions | Extracted 26 actions, 3 context notes from 32 chunks
+2026-07-18 21:31:48,960 | INFO     | sequence_markers | Extracted 13 sequence-marker edges
+2026-07-18 21:31:48,962 | INFO     | segmentation | Segmented 26 actions into 2 action groups (2 boundaries)
+2026-07-18 21:31:50,350 | INFO     | embeddings | Loading embedding model all-MiniLM-L6-v2 on cpu
+2026-07-18 21:31:50,651 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:50,692 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:50,981 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:51,045 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:51,055 | INFO     | sentence_transformers.base.model | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-18 21:31:51,336 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:51,488 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:51,786 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:51,877 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-18 21:31:52,199 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:52,299 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:52,579 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:52,646 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:52,972 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:53,249 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:53,287 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:54,388 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:54,690 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:55,088 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:55,390 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:55,688 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:55,780 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:56,090 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:56,165 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:56,457 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:56,492 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:56,821 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:56,886 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:57,257 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-18 21:31:57,546 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-18 21:31:57,989 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-18 21:31:58,090 | INFO     | httpx | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-18 21:31:58,496 | INFO     | httpx | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-18 21:31:58,812 | INFO     | storage | Saved workflow wf_caa5787d9bee → wf_caa5787d9bee.json
+2026-07-18 21:31:58,845 | INFO     | storage | Saved workflow wf_0af60526043b → wf_0af60526043b.json
+2026-07-18 21:31:58,906 | INFO     | embeddings | Persisted FAISS index (0 vectors)
+2026-07-18 21:32:00,596 | INFO     | embeddings | Persisted FAISS index (38 vectors)
+2026-07-18 21:32:00,630 | INFO     | pipeline | Done aircraft_manual.txt: 32 chunks, 26 actions, 2 workflows (0 merged)
+2026-07-18 21:32:00,631 | INFO     | pipeline | === Processing document: prompt_engineering.txt ===
+2026-07-18 21:32:00,631 | INFO     | parser | Parsing prompt_engineering.txt with TxtParser
+2026-07-18 21:32:00,635 | INFO     | parser | Parsed prompt_engineering.txt: 18 units, 1 pages
+2026-07-18 21:32:00,636 | INFO     | chunking | Chunked prompt_engineering.txt into 18 semantic chunks
+2026-07-18 21:32:01,268 | INFO     | actions | Extracted 30 actions, 0 context notes from 18 chunks
+2026-07-18 21:32:01,317 | INFO     | sequence_markers | Extracted 24 sequence-marker edges
+2026-07-18 21:32:01,318 | INFO     | segmentation | Segmented 30 actions into 3 action groups (2 boundaries)
+2026-07-18 21:32:02,710 | INFO     | storage | Saved workflow wf_3706c1d4ea5a → wf_3706c1d4ea5a.json
+2026-07-18 21:32:02,739 | INFO     | storage | Saved workflow wf_3986e27a6a49 → wf_3986e27a6a49.json
+2026-07-18 21:32:02,775 | INFO     | storage | Saved workflow wf_d55160f80f96 → wf_d55160f80f96.json
+2026-07-18 21:32:02,870 | INFO     | embeddings | Persisted FAISS index (0 vectors)
+2026-07-18 21:32:05,621 | INFO     | embeddings | Persisted FAISS index (99 vectors)
+2026-07-18 21:32:05,654 | INFO     | pipeline | Done prompt_engineering.txt: 18 chunks, 30 actions, 3 workflows (0 merged)
+2026-07-18 21:32:07,362 | INFO     | actions | Extracted 1 actions, 0 context notes from 1 chunks
+2026-07-18 21:32:09,252 | INFO     | actions | Extracted 0 actions, 0 context notes from 1 chunks
